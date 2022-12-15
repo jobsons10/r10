@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Redig';
+    src: url(./fonts/redig/OTF/Redig-Regular.otf);
+}
+header{
+    background-image: url(./assets/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Redig';
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.head button{
+    background-color: #e20b6b;
+    width: 60vw;
+    height: 72px;
+    border-radius: 10px;
+    border: none;
+}
+.head h1{
+    font-size: 60px;
+}
+
+
+
+header #logo{
+    width: 30vw;
+}
+#ronaldinho-header{
+    width: 90vw;
+}
