@@ -9,15 +9,14 @@
 }
 header{
     background-image: url(./assets/bg-header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-size:cover;
     font-family: 'Redig';
     color: #fff;
     letter-spacing: 1.5px;
     font-weight: 400;
     text-align: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100vw;height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,6 +28,7 @@ header .head{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    height: 50vh;
 }
 .head button{
     background-color: #e20b6b;
@@ -38,7 +38,7 @@ header .head{
     border: none;
 }
 .head h1{
-    font-size: 60px;
+    font-size: 45px;
 }
 
 
@@ -47,5 +47,5 @@ header #logo{
     width: 30vw;
 }
 #ronaldinho-header{
-    width: 90vw;
+    height: 50vh;
 }
